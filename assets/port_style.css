@@ -5,6 +5,7 @@ h2 {
     padding-top: 20px;
 }
 
+.
 p {
     background-color: antiquewhite;
     color: black;
@@ -16,16 +17,16 @@ div.gallery {
     border: 1px solid #ccc;
   }
   
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #777;
   }
   
-  div.gallery img {
-    width: 100%;
-    height: 250px;
+div.gallery img {
+    width: 275px;
+    height: 275px;
   }
   
-  div.desc {
+div.desc {
     background-color: antiquewhite;
     color: black;
     opacity: .3;
@@ -33,24 +34,24 @@ div.gallery {
     text-align: center;
   }
   
-  * {
+* {
     box-sizing: border-box;
   }
   
-  .responsive {
+.responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    /* width: 24.99999%; */
   }
   
-  @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .responsive {
-      width: 49.99999%;
+      /* width: 49.99999%; */
       margin: 6px 0;
     }
   }
   
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     .responsive {
       width: 100%;
     }
